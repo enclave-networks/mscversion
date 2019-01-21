@@ -7,9 +7,6 @@ namespace MscVersion
 {
     public static class Msi
     {
-        [DllImport("msi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
-        public static extern InstallState MsiQueryProductState(string product);
-
         public static bool Any(IEnumerable<Guid> productCodes)
         {
             return productCodes.Any(IsInstalled);
@@ -32,6 +29,9 @@ namespace MscVersion
         {
             return productCodes.Where(IsInstalled);
         }
+
+        [DllImport("msi.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+        private static extern InstallState MsiQueryProductState(string product);
     }
 
     public enum InstallState
