@@ -6,16 +6,9 @@ namespace MscVersion
 {
     public static class VcRuntime
     {
-        public static IEnumerable<VcRuntimeVersion> GetInstalled(IEnumerable<VcRuntimeVersion> filteredRuntimeVersions)
+        public static IEnumerable<VcRuntimeVersion> GetInstalled(Func<VcRuntimeVersion, bool> predicate)
         {
-            return filteredRuntimeVersions.Where(n => Msi.IsInstalled(n.Guid));
-        }
-
-        public static IEnumerable<VcRuntimeVersion> GetInstalled(MscVer mscVer)
-        {
-            return KnownRuntimeVersions
-                .Where(n => n.MscVer == mscVer)
-                .Where(n => Msi.IsInstalled(n.Guid));
+            return KnownRuntimeVersions.Where(predicate);
         }
 
         public static List<VcRuntimeVersion> KnownRuntimeVersions => new List<VcRuntimeVersion>
@@ -150,7 +143,7 @@ namespace MscVersion
             new VcRuntimeVersion(Guid.Parse("{6F0267F3-7467-350D-A8C8-33B72E3658D8}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.14.26429 - Additional Runtime"),
             new VcRuntimeVersion(Guid.Parse("{B12F584A-DE7A-3EE3-8EC4-8A64DBC0F2A7}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.14.26429 - Additional Runtime")
 
-            // 14.16.27012
+            // todo 14.16.27012
         };
     }
 }
