@@ -8,7 +8,7 @@ namespace MscVersion
     {
         public static IEnumerable<VcRuntimeVersion> GetInstalled(Func<VcRuntimeVersion, bool> predicate)
         {
-            return KnownRuntimeVersions.Where(predicate);
+            return KnownRuntimeVersions.Where(predicate).Where(n => Msi.IsInstalled(n.ProductCode));
         }
 
         public static List<VcRuntimeVersion> KnownRuntimeVersions => new List<VcRuntimeVersion>

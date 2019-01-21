@@ -7,7 +7,7 @@ namespace MscVersion
 {
     public static class Msi
     {
-        public static bool Any(IEnumerable<Guid> productCodes)
+        public static bool IsInstalled(IEnumerable<Guid> productCodes)
         {
             return productCodes.Any(IsInstalled);
         }
@@ -18,16 +18,6 @@ namespace MscVersion
 
             return state == InstallState.INSTALLSTATE_LOCAL ||
                    state == InstallState.INSTALLSTATE_DEFAULT;
-        }
-
-        public static bool IsInstalled(IEnumerable<string> productCodes)
-        {
-            return productCodes.Select(MsiQueryProductState).Any(state => state == InstallState.INSTALLSTATE_LOCAL || state == InstallState.INSTALLSTATE_DEFAULT);
-        }
-
-        public static IEnumerable<Guid> Where(IEnumerable<Guid> productCodes)
-        {
-            return productCodes.Where(IsInstalled);
         }
 
         [DllImport("msi.dll", CharSet = CharSet.Unicode, SetLastError = true)]

@@ -4,14 +4,14 @@ namespace MscVersion
 {
     public class VcRuntimeVersion
     {
-        public Guid Guid { get; set; }
+        public Guid ProductCode { get; set; }
         public MscVer MscVer { get; set; }
         public ArchType Architecture { get; set; }
         public string Version { get; set; }
 
-        public VcRuntimeVersion(Guid guid, MscVer mscVer, ArchType architecture, string version = "")
+        public VcRuntimeVersion(Guid productCode, MscVer mscVer, ArchType architecture, string version = "")
         {
-            Guid = guid;
+            ProductCode = productCode;
             MscVer = mscVer;
             Architecture = architecture;
             Version = version;
