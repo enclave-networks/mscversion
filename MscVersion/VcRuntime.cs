@@ -77,8 +77,12 @@ namespace MscVersion
             new VcRuntimeVersion(Guid.Parse("{BE960C1C-7BAD-3DE6-8B1A-2616FE532845}"), MscVer.Vs_2015, ArchType.x86, "14.0.23026 - Additional runtime"),
             new VcRuntimeVersion(Guid.Parse("{BC958BD2-5DAC-3862-BB1A-C1BE0790438D}"), MscVer.Vs_2015, ArchType.x64, "14.0.23026 - Additional runtime"),
 
-            new VcRuntimeVersion(Guid.Parse("{2E085FD2-A3E4-4B39-8E10-6B8D35F55244}"), MscVer.Vs_2015, ArchType.x86, "14.0.23918.0"),
-            new VcRuntimeVersion(Guid.Parse("{DAB68466-3A7D-41A8-A5CF-415E3FF8EF71}"), MscVer.Vs_2015, ArchType.x64, "14.0.23918.0"),
+            new VcRuntimeVersion(Guid.Parse("{206898CC-4B41-4D98-AC28-9F9AE57F91FE}"), MscVer.Vs_2015, ArchType.x86, "14.0.24123"),
+            new VcRuntimeVersion(Guid.Parse("{2CBCEDBB-F38C-48A3-A3E1-6C6FD821A7F4}"), MscVer.Vs_2015, ArchType.x64, "14.0.24123"),
+            new VcRuntimeVersion(Guid.Parse("{06AE3BCC-7612-39D3-9F3B-B6601D877D02}"), MscVer.Vs_2015, ArchType.x86, "14.0.24123 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{FDBE9DB4-7A91-3A28-B27E-705EF7CFAE57}"), MscVer.Vs_2015, ArchType.x64, "14.0.24123 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{03AC7A79-F8AF-38FC-9DA0-98DAB4F4B1CD}"), MscVer.Vs_2015, ArchType.x86, "14.0.24123 - Additional Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{21134089-9B59-34C8-BE11-929D26AD5207}"), MscVer.Vs_2015, ArchType.x64, "14.0.24123 - Additional Runtime"),
 
             new VcRuntimeVersion(Guid.Parse("{8FD71E98-EE44-3844-9DAD-9CB0BBBC603C}"), MscVer.Vs_2015, ArchType.x86, "14.0.24210"),
             new VcRuntimeVersion(Guid.Parse("{C0B2C673-ECAA-372D-94E5-E89440D087AD}"), MscVer.Vs_2015, ArchType.x64, "14.0.24210"),
