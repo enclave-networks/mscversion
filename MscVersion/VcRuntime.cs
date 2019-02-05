@@ -163,19 +163,38 @@ namespace MscVersion
             new VcRuntimeVersion(Guid.Parse("{568CD07E-0824-3EEB-AEC1-8FD51F3C85CF}"), MscVer.Vs_2017_15_3, ArchType.x86, "14.11.25325 - Additional runtime"),
             new VcRuntimeVersion(Guid.Parse("{B13B3E11-1555-353F-A63A-8933EE104FBD}"), MscVer.Vs_2017_15_3, ArchType.x64, "14.11.25325 - Additional runtime"),
 
-            new VcRuntimeVersion(Guid.Parse("{e2ee15e2-a480-4bc5-bfb7-e9803d1d9823}"), MscVer.Vs_2017_15_5, ArchType.x64, "14.12.25810"),
+            new VcRuntimeVersion(Guid.Parse("{E2EE15E2-A480-4BC5-BFB7-E9803D1D9823}"), MscVer.Vs_2017_15_5, ArchType.x64, "14.12.25810"),
             new VcRuntimeVersion(Guid.Parse("{56e11d69-7cc9-40a5-a4f9-8f6190c4d84d}"), MscVer.Vs_2017_15_5, ArchType.x86, "14.12.25810"),
             new VcRuntimeVersion(Guid.Parse("{2CD849A7-86A1-34A6-B8F9-D72F5B21A9AE}"), MscVer.Vs_2017_15_5, ArchType.x64, "14.12.25810 - Additional Runtime"),
             new VcRuntimeVersion(Guid.Parse("{7FED75A1-600C-394B-8376-712E2A8861F2}"), MscVer.Vs_2017_15_5, ArchType.x86, "14.12.25810 - Additional Runtime"),
             new VcRuntimeVersion(Guid.Parse("{C99E2ADC-0347-336E-A603-F1992B09D582}"), MscVer.Vs_2017_15_5, ArchType.x64, "14.12.25810 - Minimum runtime"),
             new VcRuntimeVersion(Guid.Parse("{828952EB-5572-3666-8CA9-000B6CE79350}"), MscVer.Vs_2017_15_5, ArchType.x86, "14.12.25810 - Minimum runtime"),
 
+            new VcRuntimeVersion(Guid.Parse("{EC9C2282-A836-48A6-9E41-C2F0BF8D678B}"), MscVer.Vs_2017_15_5, ArchType.x86, "14.14.26405"),
+            new VcRuntimeVersion(Guid.Parse("{5B295BA9-EF89-4AEB-8ACC-B61ADB0B9B5F}"), MscVer.Vs_2017_15_5, ArchType.x64, "14.14.26405"),
+            new VcRuntimeVersion(Guid.Parse("{644544A0-318A-344C-964C-4DBE2FB5F864}"), MscVer.Vs_2017_15_5, ArchType.x86, "14.14.26405 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{BCA8F863-9BAB-3398-B8E4-E1D0959D0943}"), MscVer.Vs_2017_15_5, ArchType.x64, "14.14.26405 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{36BF9A30-89CD-30BD-804D-09148F99DC67}"), MscVer.Vs_2017_15_5, ArchType.x86, "14.14.26405 - Debug Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{874453C7-F1A2-3087-AE5B-A4D4C83B29B4}"), MscVer.Vs_2017_15_5, ArchType.x64, "14.14.26405 - Debug Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{2BCACFA1-2BE1-373C-9051-76A9661D9FC4}"), MscVer.Vs_2017_15_5, ArchType.x86, "14.14.26405 - Additional Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{A2999714-5C2C-3729-A911-4AE198B7B2FD}"), MscVer.Vs_2017_15_5, ArchType.x64, "14.14.26405 - Additional Runtime"),
+
             new VcRuntimeVersion(Guid.Parse("{7753EC39-3039-3629-98BE-447C5D869C09}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.14.26429 - Minimum Runtime"),
             new VcRuntimeVersion(Guid.Parse("{03EBF679-E886-38AD-8E70-28658449F7F9}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.14.26429 - Minimum Runtime"),
             new VcRuntimeVersion(Guid.Parse("{6F0267F3-7467-350D-A8C8-33B72E3658D8}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.14.26429 - Additional Runtime"),
-            new VcRuntimeVersion(Guid.Parse("{B12F584A-DE7A-3EE3-8EC4-8A64DBC0F2A7}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.14.26429 - Additional Runtime")
+            new VcRuntimeVersion(Guid.Parse("{B12F584A-DE7A-3EE3-8EC4-8A64DBC0F2A7}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.14.26429 - Additional Runtime"),
 
-            // todo 14.16.27012
+            // MSVC++ 14.15 _MSC_VER == 1915 (Visual Studio 2017 version 15.8)
+            // todo 14.15.26706
+
+            // MSVC++ 14.16 _MSC_VER == 1916 (Visual Studio 2017 version 15.9)
+            // todo 14.16.27012 (get full guid list)
+            new VcRuntimeVersion(Guid.Parse("{67f67547-9693-4937-aa13-56e296bd40f6}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.14.26429"),
+            new VcRuntimeVersion(Guid.Parse("{427ada59-85e7-4bc8-b8d5-ebf59db60423}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.14.26429")
+            
+            // todo 14.16.27012.6
+
+            // todo 14.16.27024
         };
     }
 }
