@@ -13,6 +13,7 @@ namespace MscVersion
 
         public static List<VcRuntimeVersion> KnownRuntimeVersions => new List<VcRuntimeVersion>
         {
+            // https://en.wikipedia.org/wiki/Microsoft_Visual_C++
             // https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library
 
             // MSVC++ 8.0  _MSC_VER == 1400 (Visual Studio 2005)
