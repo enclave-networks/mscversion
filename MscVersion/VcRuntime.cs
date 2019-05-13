@@ -205,6 +205,7 @@ namespace MscVersion
             // 14.16.27012.6        MSVC++ 14.16 _MSC_VER == 1916 (Visual Studio 2017 version 15.9) - todo incomplete, find all guids
             // 14.16.27024.1
             // todo 14.16.27026.1
+            // 14.16.27027
 
             new VcRuntimeVersion(Guid.Parse("{7d9c81d7-a921-4503-8518-38fc0c94b692}"), MscVer.Vs_2017_15_0, ArchType.x86, "14.10.24629.0-rc1"),
             new VcRuntimeVersion(Guid.Parse("{c60f2e5a-912d-426c-a6b1-8a80bebab424}"), MscVer.Vs_2017_15_0, ArchType.x64, "14.10.24629.0-rc1"),
@@ -273,13 +274,30 @@ namespace MscVersion
 
             new VcRuntimeVersion(Guid.Parse("{67f67547-9693-4937-aa13-56e296bd40f6}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.16.27012"),
             new VcRuntimeVersion(Guid.Parse("{427ada59-85e7-4bc8-b8d5-ebf59db60423}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.16.27012"),
+            new VcRuntimeVersion(Guid.Parse("{3ECD99CB-EDAF-45DA-AD9C-2C4875F375FB}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.16.27012 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{7B77DE7F-5219-435E-9CE1-FC77F1D4CCAD}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.16.27012 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{DF5B1280-A057-4536-9D03-3BCAA0D4C6F0}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.16.27012 - Additional Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{DD6BC8D7-4582-4677-BAAC-4AB933E6C315}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.16.27012 - Additional Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{BC1F17EB-F70C-4A9D-BAFE-BFFCF3DE24E2}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.16.27012 - Debug Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{4FCD7550-A8CF-47FF-AEA9-E0B03F9E82E7}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.16.27012 - Debug Runtime"),
 
             new VcRuntimeVersion(Guid.Parse("{2ff11a2a-f7ac-4a6c-8cd4-c7bb974f3642}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.16.27024.1"),
             new VcRuntimeVersion(Guid.Parse("{5fb2083a-f3cc-4b78-93ff-bd9788b5de01}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.16.27024.1"),
             new VcRuntimeVersion(Guid.Parse("{5EEFCEFB-E5F7-4C82-99A5-813F04AA4FBD}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.16.27024.1 - Minimum Runtime"),
             new VcRuntimeVersion(Guid.Parse("{F1B0FB3A-E0EA-47A6-9383-3650655403B0}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.16.27024.1 - Minimum Runtime"),
             new VcRuntimeVersion(Guid.Parse("{7258184A-EC44-4B1A-A7D3-68D85A35BFD0}"), MscVer.Vs_2017_15_7, ArchType.x86, "14.16.27024.1 - Additional Runtime"),
-            new VcRuntimeVersion(Guid.Parse("{9D29FC96-9EEE-4253-943F-96B3BBFDD0B6}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.16.27024.1 - Additional Runtime")
+            new VcRuntimeVersion(Guid.Parse("{9D29FC96-9EEE-4253-943F-96B3BBFDD0B6}"), MscVer.Vs_2017_15_7, ArchType.x64, "14.16.27024.1 - Additional Runtime"),
+
+            // MSVC++ 16.0 _MSC_VER >= 1920 (Visual Studio 2019)
+            // =================================================
+            // 14.20.27508
+            
+            new VcRuntimeVersion(Guid.Parse("{F3241984-5A0E-4632-9025-AA16E0780A4B}"), MscVer.Vs_2019_16_0, ArchType.x64, "14.20.27508 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{B96F6FA1-530F-42F1-9F71-33C583716340}"), MscVer.Vs_2019_16_0, ArchType.x86, "14.20.27508 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{4931385B-094D-4DC5-BD6A-5188FE9C51DF}"), MscVer.Vs_2019_16_0, ArchType.x64, "14.20.27508 - Additional Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{C9DE51F8-7846-4621-815D-E8AFD3E3C0FF}"), MscVer.Vs_2019_16_0, ArchType.x86, "14.20.27508 - Additional Runtime")
+            
+            
         };
     }
 }
