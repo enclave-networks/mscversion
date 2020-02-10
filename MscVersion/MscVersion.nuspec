@@ -4,12 +4,12 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
+    <authors>Westgate Cyber Security Limited</authors>
     <owners>$author$</owners>
 	  <license type="expression">MIT</license>
     <projectUrl>https://github.com/enclave-networks/MscVersion/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>Pure C# alternative to the _MSC_VER macro in C++which checks if the Microsoft Visual C++ runtime is locally installed.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>_MSC_VER VC++</tags>
