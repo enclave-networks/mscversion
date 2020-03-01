@@ -1,23 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <TargetFrameworks>net45;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net45;netstandard2.1</TargetFrameworks>
     <OutputType>Library</OutputType>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild> <!-- automatically build nuget package on build -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Company>Westgate Cyber Security Limited</Company>
-    <Version>1.0.0.7</Version>
+    <Version>1.0.0.8</Version>
   </PropertyGroup>
+  
   <ItemGroup>
-    <None Remove="MscVersion.1.0.0.3.nupkg" />
-    <None Remove="MscVersion.1.0.0.4.nupkg" />
-    <None Remove="MscVersion.1.0.0.5.nupkg" />
-    <None Remove="MscVersion.1.0.0.6.nupkg" />
     <None Remove="MscVersion.csproj.DotSettings" />
-    <None Remove="MscVersion.csproj.old" />
     <None Remove="MscVersion.nuspec" />
-    <None Remove="nuget.exe" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  
 </Project>
