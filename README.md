@@ -31,8 +31,8 @@ The `MscVersion` library detects the following versions of the Microsoft Visual 
 * 14.0.24215 - Unknown
 * 14.0.24215.1 - https://www.microsoft.com/en-gb/download/details.aspx?id=53840
 
-## Installer Behaviour
+## VC++ Runtime Installer Behaviour
 
-* When trying to install an earlier version of VC++ than is alreday installed, the installer will fail with the error: (0x80070666) Another version of this product is already installed.
+* When trying to install an earlier version of VC++ than is already installed, the installer will fail with the error: (0x80070666) Another version of this product is already installed.
 * When trying to install a version of VC++ newer than is already installed, the installer will upgrade the current version (matching the installers processor architecture, replacing the older version).
 * When trying to install a version of VC++ which matches an already present version, the installer will offer the user a repair option.
