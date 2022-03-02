@@ -295,9 +295,23 @@ namespace MscVersion
             new VcRuntimeVersion(Guid.Parse("{F3241984-5A0E-4632-9025-AA16E0780A4B}"), MscVer.Vs_2019_16_0, ArchType.x64, "14.20.27508 - Minimum Runtime"),
             new VcRuntimeVersion(Guid.Parse("{B96F6FA1-530F-42F1-9F71-33C583716340}"), MscVer.Vs_2019_16_0, ArchType.x86, "14.20.27508 - Minimum Runtime"),
             new VcRuntimeVersion(Guid.Parse("{4931385B-094D-4DC5-BD6A-5188FE9C51DF}"), MscVer.Vs_2019_16_0, ArchType.x64, "14.20.27508 - Additional Runtime"),
-            new VcRuntimeVersion(Guid.Parse("{C9DE51F8-7846-4621-815D-E8AFD3E3C0FF}"), MscVer.Vs_2019_16_0, ArchType.x86, "14.20.27508 - Additional Runtime")
-            
-            
+            new VcRuntimeVersion(Guid.Parse("{C9DE51F8-7846-4621-815D-E8AFD3E3C0FF}"), MscVer.Vs_2019_16_0, ArchType.x86, "14.20.27508 - Additional Runtime"),
+
+            // MSVC++ 17.0 _MSC_VER >= 1930 (Visual Studio 2022)
+            // =================================================
+            // 14.30.30704
+
+            new VcRuntimeVersion(Guid.Parse("{662A0088-6FCD-45DD-9EA7-68674058AED5}"), MscVer.Vs_2022_17_0, ArchType.x64, "14.30.30704 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{F6080405-9FA8-4CAA-9982-14E95D1A3DAC}"), MscVer.Vs_2022_17_0, ArchType.x86, "14.30.30704 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{6DB765A8-05AF-49A1-A71D-6F645EE3CE41}"), MscVer.Vs_2022_17_0, ArchType.x64, "14.30.30704 - Additional Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{BF08E976-B92E-4336-B56F-2171179476C4}"), MscVer.Vs_2022_17_0, ArchType.x86, "14.30.30704 - Additional Runtime"),
+
+            // 14.31.31103
+
+            new VcRuntimeVersion(Guid.Parse("{A181A302-3F6D-4BAD-97A8-A426A6499D78}"), MscVer.Vs_2022_17_1, ArchType.x64, "14.31.31103 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{799E3FFF-705C-461F-B400-6DE27398B3E5}"), MscVer.Vs_2022_17_1, ArchType.x86, "14.31.31103 - Minimum Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{A977984B-9244-49E3-BD24-43F0A8009667}"), MscVer.Vs_2022_17_1, ArchType.x64, "14.31.31103 - Additional Runtime"),
+            new VcRuntimeVersion(Guid.Parse("{5720EC03-F26F-40B7-980C-50B5D420B5DE}"), MscVer.Vs_2022_17_1, ArchType.x86, "14.31.31103 - Additional Runtime")
         };
     }
 }
