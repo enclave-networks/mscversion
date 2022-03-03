@@ -18,6 +18,7 @@ The `MscVersion` library detects the following versions of the Microsoft Visual 
 * Visual Studio 2015
 * Visual Studio 2017
 * Visual Studio 2019
+* Visual Studio 2022
 
 ## Direct Links to VC++ Runtime Installers
 
